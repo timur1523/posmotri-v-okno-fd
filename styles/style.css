@@ -60,7 +60,8 @@ ol {
 }
 
 .button {
-  font-family: 'Fira Sans Condensed', sans-serif; ;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  ;
   font-weight: bold;
   font-size: 18px;
   color: #fff;
@@ -80,7 +81,7 @@ ol {
 
 .button:focus-visible {
   border: 0;
-  outline:  thick double #fff;
+  outline: thick double #fff;
 
 
 }
@@ -107,6 +108,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   width: 100%;
+  padding: 133px 30px;
 }
 
 .search-form {
@@ -132,6 +134,8 @@ ol {
   margin-block-end: 16px;
   block-size: 386px;
   inline-size: 711px;
+  cursor: pointer;
+  position: relative;
 }
 
 .result__video {
@@ -150,6 +154,7 @@ ol {
   color: #fff;
   text-decoration: none;
   display: block;
+  cursor: pointer;
 }
 
 .content__card-link:hover {
@@ -165,7 +170,8 @@ ol {
 }
 
 
-.content__card-link_current, .content__card-link:active {
+.content__card-link_current,
+.content__card-link:active {
   background-color: #545050;
 }
 
@@ -196,7 +202,7 @@ ol {
   font-size: 18px;
   line-height: 90%;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 4; 
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 
 }
@@ -205,6 +211,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
 }
 
 .content__video-card {
@@ -246,6 +253,10 @@ ol {
   width: fit-content;
 }
 
+.search-form__label-text {
+  cursor: pointer;
+}
+
 .search-form__textfield {
   border: 0;
   border-block: 1px solid #fff;
@@ -257,11 +268,12 @@ ol {
   appearance: none;
   inline-size: 225px;
   padding-block: 2px;
+  cursor: pointer;
 }
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  
+
 }
 
 .search-form__pseudo-checkbox {
@@ -269,6 +281,7 @@ ol {
   padding: 1px;
   inline-size: 19px;
   block-size: 19px;
+  cursor: pointer;
 }
 
 .search-form__pseudo-checkbox::after {
@@ -280,7 +293,7 @@ ol {
   inline-size: 100%;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+.search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
@@ -295,16 +308,10 @@ ol {
 .search-form__submit-button {
   inline-size: 194px;
   align-self: flex-end;
+  cursor: pointer;
 }
 
 .more-button {
   inline-size: 100%;
+  cursor: pointer;
 }
-
-
-
-
-
-
-
-
