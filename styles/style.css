@@ -64,10 +64,10 @@ ol {
   padding-block: 6px;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
-  ;
   font-weight: bold;
   font-size: 18px;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -82,8 +82,6 @@ ol {
 .button:focus-visible {
   border: 0;
   outline: thick double #fff;
-
-
 }
 
 .content__accent {
@@ -140,6 +138,7 @@ ol {
 
 .result__video {
   object-fit: cover;
+  object-position: center;
   inline-size: 100%;
   block-size: 100%;
 }
@@ -168,7 +167,6 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
-
 
 .content__card-link_current,
 .content__card-link:active {
@@ -204,7 +202,6 @@ ol {
   text-overflow: ellipsis;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-
 }
 
 .content__list-container {
@@ -272,7 +269,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-
 }
 
 .search-form__textfield:focus {
@@ -311,11 +307,9 @@ ol {
 
 .search-form__submit-button {
   align-self: flex-end;
-  cursor: pointer;
   inline-size: 194px;
 }
 
 .more-button {
-  cursor: pointer;
   inline-size: 100%;
 }
